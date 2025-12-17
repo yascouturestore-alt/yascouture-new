@@ -1,0 +1,143 @@
+<div class="main">
+  <div class="partOne">
+    <app-main-page
+      videoElement="https://yas-videos-cdn.b-cdn.net/wintervideos%20-2025-2026/header%20of%20both%20home%20page%20and%20fall%20winter%202025_2026%20page%20.mp4"
+    ></app-main-page>
+  </div>
+
+  <div class="partTwo">
+    <div class="partTwo-top">
+      <h4 class="heading">
+        <div class="line"></div>
+        <p
+          style="
+            margin: 0;
+            width: auto;
+            padding: 0px 12px;
+            letter-spacing: 2px;
+            font-size: 13px;
+          "
+        >
+          EXPLORE
+        </p>
+        <div class="line"></div>
+      </h4>
+      <h1 class="heading2" style="font-family: 'MyCustomFont'">
+        FALL / WINTER
+      </h1>
+      <p>
+        Discover a realm of elegance shaped by time and enriched with couture
+        mastery in Yas Couture’s Fall/Winter 2025–2026 collection. Each creation
+        is crafted with sculptural beauty, luxurious materials, and exquisite
+        detailing that bring a new dimension of sophistication to the season.
+      </p>
+    </div>
+    <div class="partTwo-bottom">
+      <video autoplay muted="true" [volume]="0" loop playsinline>
+        <source
+          src="https://yas-videos-cdn.b-cdn.net/wintervideos%20-2025-2026/explore%20fall%20winter.mp4"
+          type="video/webm"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <div class="partThree">
+    <div class="partThree-top">
+      <h1 class="heading2" style="font-family: 'MyCustomFont'">THE LOOKS</h1>
+    </div>
+    <div class="partThree-bottom">
+      <app-slidertwo [images]="images"></app-slidertwo>
+    </div>
+    <div class="partThree-end">
+      <button
+        (click)="moveNext('WinterLooks-2025-2026')"
+        style="font-family: 'MyCustomFont'"
+      >
+        The Looks
+      </button>
+    </div>
+  </div>
+
+  <div class="pageFour">
+    <div class="pageFour-top">
+      <h1 style="font-family: 'MyCustomFont'">MAKING OF</h1>
+      <p>
+        Discover the making of a collection sculpted in elegance and refined
+        through craftsmanship. Fall/Winter 2025-2026 emerges through layered
+        textures, thoughtful details, and artistry that breathes life into every
+        silhouette.
+      </p>
+    </div>
+    <div class="pageFour-mid">
+      <video autoplay muted="true" [volume]="0" loop playsinline>
+        <source
+          src="https://yas-videos-cdn.b-cdn.net/wintervideos%20-2025-2026/Making%20Of.mov"
+          type="video/webm"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <!-- DETAILS SECTION (NOW ABOVE) -->
+  <div class="partsix">
+    <div class="partsix-top">
+      <h1 class="heading2" style="font-family: 'MyCustomFont'">DETAILS</h1>
+      <p>
+        Discover a symphony of details where every stitch carries an echo.
+        Fall/Winter 2025- 2026 embraces dimensional textures, hand-crafted
+        accents, and sculptural forms that captivate the eye and awaken the
+        senses.
+      </p>
+    </div>
+
+    <div class="partsix-bottom">
+      <app-slidertwo [images]="images3"></app-slidertwo>
+    </div>
+  </div>
+
+  <!-- BEHIND THE SCENES SECTION (NOW BELOW) -->
+  <div class="partfive">
+    <div class="partfive-top">
+      <h1 class="heading2" style="font-family: 'MyCustomFont'">
+        BEHIND THE SCENES
+      </h1>
+      <p>
+        Enter the quiet space where every stitch, fold, and detail takes form,
+        revealing the creation of the Fall/Winter 2025-2026 Collection.
+      </p>
+    </div>
+
+    <div class="pageFour-mid">
+      <video autoplay muted="true" [volume]="0" loop playsinline>
+        <source
+          src="https://yas-videos-cdn.b-cdn.net/wintervideos%20-2025-2026/Backstage_1._V2_FC.Exported.01.mov"
+          type="video/webm"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <div class="section-white-gap"></div>
+
+  <div class="pageseven">
+    <div class="overlay"></div>
+    <div class="background">
+      <img src="https://ik.imagekit.io/5sbqruotr/homepagebgImage.png" alt="" />
+    </div>
+    <div class="heading">
+      <h1>BOOK YOUR APPOINTMENT</h1>
+      <p>
+        Schedule a private consultation to discover exquisite haute couture
+        creations tailored just for you.
+      </p>
+      <button (click)="moveNext('BookAppointment')">BOOK NOW</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
+</div>
