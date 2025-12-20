@@ -32,15 +32,17 @@ export default class PageNine {
   ];
 
   images3 = [
-    'https://ik.imagekit.io/5sbqruotr/b11.webp',
-    'https://ik.imagekit.io/5sbqruotr/b12.webp',
-    'https://ik.imagekit.io/5sbqruotr/b13.webp',
-    'https://ik.imagekit.io/5sbqruotr/b14.webp',
-    'https://ik.imagekit.io/5sbqruotr/b15.webp',
-    'https://ik.imagekit.io/5sbqruotr/b16.webp',
-    'https://ik.imagekit.io/5sbqruotr/b17.webp',
-    'https://ik.imagekit.io/5sbqruotr/b18.webp',
-    'https://ik.imagekit.io/5sbqruotr/b19.webp',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%201.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%202.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%203.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%204.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%205.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%206.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%207.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%208.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%209.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%2010.jpg',
+    'https://ik.imagekit.io/5sbqruotr/winterdetails2526/Detail%2011.jpg'
   ];
 
   moveNext(id: string) {
