@@ -295,7 +295,7 @@
 
 .menu ul li {
   font-size: 17px;
-  font-size: 500;
+      font-weight: 400;
   color: white;
   cursor: pointer;
   line-height: 24px;
@@ -932,6 +932,7 @@ html[lang^="ar"] body .COUTURE-Hover .collection h1 {
 }
 
 .language-dropdown .dropdown-option {
+    font-weight: 400;
   padding: 8px 16px;
   display: flex;
   align-items: center;
