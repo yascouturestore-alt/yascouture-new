@@ -38,7 +38,7 @@ export class PageTen {
       name: 'LOOK 4',
       img: 'https://ik.imagekit.io/5sbqruotr/Fall%20Winter%20Images%20-2025-2026/LOOK%204.1.jpg?updatedAt=1765288742404',
       img2: 'https://ik.imagekit.io/5sbqruotr/Fall%20Winter%20Images%20-2025-2026/LOOK%204.2.jpg?updatedAt=1765288747036',
-      text: 'A masterpiece of couture artistry, the gown pairs a fully hand-embroidered crystal bodice with sculpted silk petals that cascade in thousands from shoulder to hem, creating a luminous, cloudlike silhouette that moves with extraordinary grace.',
+      text: 'A masterpiece of couture artistry, the gown pairs a fully hand-embroidered crystal bodice with sculpted silk petals that cascade in thousands from shoulder to hem, creating a luminous, cloud like silhouette that moves with extraordinary grace.',
       showSecondImage: true,
     },
     {
