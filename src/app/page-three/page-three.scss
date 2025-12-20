@@ -200,7 +200,7 @@
     justify-content: center;
     padding: 50px 0px;
     background-color: white;
-    gap: 25px;
+    // gap: 25px;
     margin: 0;
 }
 
@@ -228,6 +228,10 @@
     color: #000;
     width: 70%;
     padding: 18px 0 40px;
+        letter-spacing: 0.5px;
+    word-spacing: 0.8px;
+        letter-spacing: 0.5px;
+    word-spacing: 0.8px;
 }
 
 .partfive-bottom {
@@ -269,10 +273,13 @@
 
 .partsix-top p {
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: #000;
     width: 70%;
-    padding: 18px 0 40px;
+    padding: 18px 0 30px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    word-spacing: 0.8px;
 }
 
 .partsix-bottom {
